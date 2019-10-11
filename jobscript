@@ -1,12 +1,12 @@
-#!/bin/bash                                                                     
+#!/bin/bash
 
-#SBATCH --nodes=2                                                               
-#SBATCH --time=00:01:00                                                         
-#SBATCH --qos=testing                                                           
-#SBATCH --partition=shas-testing                                                
-#SBATCH --ntasks=24                                                             
-#SBATCH --job-name=lsolve_time                                                  
-#SBATCH --output=lsolve_time.%j.out                                             
+#SBATCH --nodes=2
+#SBATCH --time=00:01:00
+#SBATCH --qos=testing
+#SBATCH --partition=shas-testing
+#SBATCH --ntasks=24
+#SBATCH --job-name=lsolve_time
+#SBATCH --output=lsolve_time.%j.out
 
 module purge
 source /projects/jeka2967/profile.bash
