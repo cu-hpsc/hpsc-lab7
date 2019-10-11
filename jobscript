@@ -11,7 +11,6 @@
 module purge
 source /projects/jeka2967/profile.bash
 export EASYCODE=/projects/jeka2967/src/Elemental/examples/lapack_like/
-export EASYEXEC=/projects/jeka2967/src/Elemental/ompi-gcc8/bin/examples/lapack_\
-like
+export EASYEXEC=/projects/jeka2967/src/Elemental/ompi-gcc8/bin/examples/lapack_like
 
 mpirun -n 24 $EASYEXEC/LinearSolve --size 1024
