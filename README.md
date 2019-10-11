@@ -24,7 +24,7 @@ Load appropriate environmental variables:
 ```
 source /projects/jeka2967/profile.bash
 export EASYCODE=/projects/jeka2967/src/Elemental/examples/lapack_like/
-export EASYEXEC=export EASYEXEC=/projects/jeka2967/src/Elemental/ompi-gcc8/bin/examples/lapack_like
+export EASYEXEC=/projects/jeka2967/src/Elemental/ompi-gcc8/bin/examples/lapack_like
 ```
 
 Run (something small) on a compile node:
