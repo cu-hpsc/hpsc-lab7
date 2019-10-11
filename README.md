@@ -40,4 +40,11 @@ How does this compare to the lecture code?
 
 -----
 
+Try slightly larger jobs using slurm.
+```sbatch jobscript```
+
+See the tables at https://curc.readthedocs.io/en/latest/running-jobs/job-resources.html to check the limits on time and mpi nodes based on qos (quality of service) and partition.
+
+-----
+
 Looking for more to do?  Check out some of the other examples codes that relate to problems with which you are familiar!
